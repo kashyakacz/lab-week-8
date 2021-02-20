@@ -9,5 +9,16 @@ h1 {
 
 nav {
     background-color: #E59500;
+    position: sticky;
+    top: 0;
+}
+
+img {
+    float: left;
+    height: 300px;
+    width:400px;
+    object-fit: contain;
+   
+    
 }
 
