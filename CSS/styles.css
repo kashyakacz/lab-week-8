@@ -1,24 +1,50 @@
 body {
-    background-color: #E5DADA;
+    background-color: #EDDDD0;
     font-family: 'Raleway', sans-serif;
 }
 
 h1 {
     color: #002642;
 }
-
-nav {
-    background-color: #E59500;
-    position: sticky;
-    top: 0;
+.topnav {
+    height: 50px;
+    background-color:#6e8783;
+    overflow: hidden;
+    position: grid;
+    
+  }
+  
+.topnav a {
+    color: #334259;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+.flex-container{
+    display:grid;
+    background-color: #DB504A;
+    flex-direction: row-reverse;
+    text-align: left;
+    justify-content: left;
+    height: 750px;
+    width: 250px;
 }
-
 img {
     float: left;
     height: 300px;
-    width:400px;
-    object-fit: contain;
-   
-    
+    width:400px;     
+}
+
+.footer {
+    position: grid;
+    padding: 1em;
+    clear: both;
+    left: 0;
+    width: 100%;
+    height: 18px;
+    background-color: #6e8783;
+    color:#334259
 }
 
